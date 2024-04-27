@@ -1,13 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/13wiHHYI)
-# Labsignment: HTTP
+# Custom HTTP 1.1 Compliant Webserver
 
-* Name: Harjot Singh
-* CCID: harjot5
-* eMail: harjot5@ualberta.ca
-* Student ID: 1631501
+## Description
+This project is a partially HTTP 1.1 compliant webserver designed to serve static content, specifically HTML and CSS files, from a directory named `www`. The server is built using Python 3 with minimal dependencies, adhering strictly to educational objectives to deepen understanding of HTTP fundamentals.
 
-Assignment instructions [are on the website](https://uofa-cmput404.github.io/labsignments/http.html).
+## Features
+- Serves HTML and CSS files from a `./www` directory.
+- Handles web requests from browsers and command-line tools like curl.
+- Implements correct HTTP headers for content types and error handling.
+- Provides secure access by restricting file serving to the `./www` directory and subdirectories.
+- Supports redirection for directory paths ensuring they end with `/`.
 
-## Write down any collaboration or citations that aren't in server.py here:
+## References
   1. https://www.youtube.com/watch?v=YwhOUyTxXVE&t=381s (pathlib library tutorial from JetBrains)
 
